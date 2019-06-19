@@ -8,6 +8,8 @@ This lesson gives a basic introduction into data visualization. The first part r
 computer. The second (supplementary) part includes a walkthrough of generating a descriptive 
 visualization. 
 
+It is based on the lesson template used in [Data Carpentry]({{ site.dc_site }}) and [Software Carpentry]({{ site.swc_site }}) workshops.
+
 <!-- this is an html comment -->
 
 {% comment %} This is a comment in Liquid {% endcomment %}
