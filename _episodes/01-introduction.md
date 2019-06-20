@@ -59,17 +59,40 @@ plan a route that is not too steep (or a route that's especially steep, if that'
 In general, all visualizations possess what's called a *visual hierarchy*. That means that 
 things that are important should jump to your eyes first, and things that might be less 
 important are shown later. Take a look at the OpenStreetMap map for the United States. 
-You should be seeing the entire continent in white, surrounded by the blue of the ocean,
-with borders in purple, the country names in purple, and the largest cities marked in black.
-There is a lot of information to unpack here! 
+To do so, go to [Open Street Maps][openmaps] and zoom out until the entire continent 
+becomes visible. Depending on where you are in the world, move around that map until your 
+map is centred on the United States (or you could use the continent you're on!), then zoom 
+in until you see most of the country and some of its surrounding countries or oceans.
 
-At this level, the user probably doesn't care about the smaller cities, so they're not shown 
+You should be seeing the North American continent (or your own) in white, surrounded by 
+the blue of the ocean, with borders in purple, the country names in purple, and the 
+largest cities marked in black. There is a lot of information to unpack here! 
+Where to look first? You might find that your eye is guided naturally to certain points: 
+the contrast between land and water, the thick purple borders between countries, the 
+black text of the city names. That is exactly what the mapmakers intended!
+
+The most important point you should keep in mind when reading on is this:
+
+>
+> Data Visualization is about managing the viewer's attention.
+>  
+{: .callout}
+
+In this respect, visualization is a little bit like being a magician, but in reverse.
+Magic tricks are also very much about managing the audience's attention: most tricks involve 
+some kind of distraction that the adience's focus is directed to, while the magician may 
+do the actual trick undetected. In data visualization, we are doing the reverse: we are 
+trying to direct the viewer's attention *towards* the most important pieces of information, 
+rather than away from them.
+
+On our map, at this large-scale view of the entire continent, the user probably doesn't care 
+about the smaller cities, so they're not shown 
 at all. The map makers have also used colour judiciously: in general, we associate blue with 
 water, so they've coloured the oceans blue. You could colour them any colour you want, but 
 I suspect it would be very confusing if you coloured the oceans red, and a viewer might no 
 longer understand how to interpret the information.
  
-So here, then, is an important point: 
+So here, then, is another important point to keep in mind: 
 
 >
 > A visualization should always strive to make it easier for the widest possible 
@@ -124,6 +147,37 @@ Here, then, is another important point to keep in mind when delving into the wor
 We will return to this last point, including the ethical aspects of generating a visualization, 
 and some examples of using visualizations for mis-information, in the episode on Visualizations &
 Society.
+
+## What Not To Do
+
+We are going to end this introduction with an example of how *not* to visualize some data, from the 
+Canadian newspaper The Winnipeg Sun:
+
+![pie chart for the question 'What was the best part of the super bowl?' with 73% answering no, 28% yes, and the pie proportions exactly opposite to what the labels say]({{ page.root }}/fig/badviz_example1.png)
+
+This could be, in principle, a visualization that is straightforward to understand, yet it fails in several 
+hilarious ways. First, you might notice that the question "What was the best part of the Super Bowl?", an 
+American sports event, is in no way answered "yes" or "no". Context is important in data visualization!
+Here, the context is completely mismatched to the information on the visualization itself, so we have no 
+way to interpret it!
+
+In general, much has been said about the use and mis-use of pie charts. There are many in the data visualization 
+world who argue against ever using them, because humans are worse at estimating angles and circumference (which 
+is how data is displayed in a pie chart) than they are at comparing lengths and areas. 
+Pie charts are generally used to show parts-to-whole relationships, i.e. data sets where all the individual 
+components must sum up to 100%. In the case here, that's in principle not a bad representation of the questionnaire
+ (for yes/no questions, you'd hope that the total sums up to 100%), except for two glaring problems:
+the numbers on the chart don't *actually* sum up to 100%, but 101%! Where is that extra 1% coming from? 
+We'll never know!
+
+The second issue is the labels are reversed: the 72% "no" answer is printed on top of the smaller pie slice, 
+the 28% yes on the larger pie slice. This is super confusing! It's like taking a map, and making your continents 
+blue and your oceans red. What are we supposed to get from this? Well, probably that someone messed something up
+But what? Are the numbers correct, and they just switched out the labels? Are "yes" and "no" correctly 
+associated with their pie charts, but the numbers are switched? What happened here? 
+I suppose newspaper printing is a stressful business, and occasionally things slip through without being checked 
+carefully. But this is a good lesson to ask before you submit your next paper or proposal: does the information 
+on my plots actually make sense? Is the context (captions, axes, labels, etc.) consistent with my visualization? 
 
 
 
