@@ -1,11 +1,11 @@
 ---
 title: "Introduction"
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 10
 questions:
-- "Key question (FIXME)"
+- "Why do we need data visualization at all?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Motivate data visualization as a tool to convey information"
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
