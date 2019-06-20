@@ -79,7 +79,9 @@ So here, then, is an important point:
 
 I deliberately use the "widest range of viewers", because just because *you* understand 
 a visualization well does not mean everyone will. We will get back to this point in the 
-episode on accessible visualization design.
+episode on accessible visualization design. What makes a visualization easy to understand 
+is also closely tied to how our brains process visual information. We will take a closer 
+look at that in the episode on pre-attentive processing.
 
 The map makers at OpenStreetMap deliberately did *not* make the continent blue, that would 
 be confusing, too. We will talk more about colour and its role in visualization in the 
@@ -94,6 +96,15 @@ the country names are coloured in purple, which your brain might therefore immed
 with the borders. Similarly, names of oceans, seas and lakes are coloured in a darker blue, 
 which you might more easily recognize as the name of that body of water. 
 Association, too, is a Gestalt principle. 
+
+You might also notice that the mapmakers only convey a subset of the available information at 
+this level, like the names of the countries, but not states, and only the largest (or most 
+important, by some metric of importance) cities. This has both practical and conceptual reasons.
+If the mapmakers included every town and village at this level, the entire continent would be 
+crowded with writing and we could see nothing at all. But also, one important concept within 
+the idea of visual hierarchy is the concept of *space*. It is much easier to make sense of the 
+important parts of a visualization if the individual elements are surrounded by space, rather than 
+other elements. We will get back to the topic of (negative) space in the episode on Space.
 
 Finally, it should be noted that in what I said above, the word "important" appeared multiple 
 times. It is important to recognize that when the mapmakers at OpenStreetMap came up with colours 
