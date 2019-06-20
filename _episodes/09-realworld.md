@@ -12,6 +12,14 @@ objectives:
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
+
+* [Useful blog post][https://www.sisense.com/blog/global-warming-caused-lack-pirates-bad-graph-lessons/]
+
+* include bar chart with non-zero y-axis as an example for a bad visualization
+* include a climate change chart to show that wanting to show absolute values is different from wanting to show differences (when those differences might be important --> change is in the title)
+
+
+
 FIXME
 
 {% include links.md %}
