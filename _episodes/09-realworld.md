@@ -17,7 +17,10 @@ keypoints:
 
 * include bar chart with non-zero y-axis as an example for a bad visualization
 * include a climate change chart to show that wanting to show absolute values is different from wanting to show differences (when those differences might be important --> change is in the title)
-
+* include principle of proportional ink (Bergstrom, Jevin)
+* Also include link to [Calling Bullshit lectures][https://callingbullshit.org/videos.html]
+* include 3D plots
+* include glass slippers + ducks (also from Calling Bullshit)
 
 
 FIXME
