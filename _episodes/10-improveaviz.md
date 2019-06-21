@@ -16,8 +16,6 @@ keypoints:
 - "Improving a visualization is fun!"
 ---
 
-## Wireframing a Data Visualization for Fun and Profit (okay, just fun)
-
 You've now learned a lot about the different types of data visualizations, about how our brain 
 processes information, and how to use that knowledge to design visualizations that are easy to 
 understand. Let's now put that knowledge to good use!
@@ -45,7 +43,7 @@ where they denote a sketch (on paper, a board, ...) of the layout of the page. T
 
 So let's practice creating a wireframe for a data visualization!
 
-> ## Challenge: Wireframe a Visualization
+> ## Challenge: Wireframe a Visualization for Fun and Profit (okay, just fun!)
 >
 > Below this challenge, you will find a gallery of data visualizations. All of these were drawn 
 > from public sources like newspapers, companies, design agencies, etc.
@@ -76,6 +74,64 @@ So let's practice creating a wireframe for a data visualization!
 >
 {: .challenge}
 
+Here are some visualizations for you to choose from:
+
+![bar chart displaying the height of bridges, compared to the typical height of trucks, and that of a house cat]({{ page.root }}/fig/bridgeheights.jpg)
+Image Source: Indianapolis Star, via [Flowing Data][dataflow]
+ 
+![]({{ page.root }}/fig/water_drinking.jpg)
+Image Source: USA Today, via the [Calling Bullshit lecture 6 videos][cbvideos]
+![]({{ page.root }}/fig/cryptocurrencies.png)
+
+![]({{ page.root }}/fig/topreadbooks.png)
+Image Source: Jared Fanning, via [Business Insider][bitopread]
+
+![]({{ page.root }}/fig/dataviz_improve1.jpg)
+Image Source [Wired][tedanatomy], via [Design Your Way][designyourway]
+
+![]({{ page.root }}/fig/dataviz_improve14.jpg)
+Image Source: ReadWrite, via Stephanie R. Taylor's [lecture notes][taylornotes]
+
+![]({{ page.root }}/fig/dataviz_improve2.jpg)
+Image Source: Found on [Design Your Way][designyourway]
+
+![]({{ page.root }}/fig/dataviz_improve3.jpg)
+Image Source: DIYSEO
+
+![]({{ page.root }}/fig/dataviz_improve4.jpg)
+Image Source: [WTF Viz][wtfviz]
+
+![]({{ page.root }}/fig/dataviz_improve5.jpg)
+Image Source: UCSB by the numbers via [Eager Eyes][eagereyes]
+Original source unknown.
+
+![]({{ page.root }}/fig/dataviz_improve6.jpg)
+Image Source: [Razorfish][razorfish], via [Eager Eyes][eagereyes2] 
+
+![]({{ page.root }}/fig/dataviz_improve9.jpg)
+Image Source: Stephanie R. Taylor's [lecture notes][taylornotes]
+
+### Some more resources for data visualizations (and discussions thereof)
+
+* [This twitter thread](https://twitter.com/cbinsights/status/803435473196740608?lang=en)
+* 
+
+[dataflow]: https://flowingdata.com/2013/07/15/open-thread-what-is-wrong-with-these-charts/
+[cbvideos]: https://callingbullshit.org/videos.html
+[bitopread]: https://www.businessinsider.com/the-top-10-most-read-books-in-the-world-infographic-2012-12
+[tedanatomy]: https://www.wired.com/2013/04/tedtalk/
+[designyourway]: https://www.designyourway.net/blog/inspiration/when-infographics-go-bad-or-how-not-to-design-data-visualization/
+[taylornotes]: http://cs.colby.edu/courses/S14/cs251/index.php
+[wtfviz]: https://viz.wtf/post/153693791347/what-would-rick-do
+[eagereyes]: https://twitter.com/EagerEyes/status/13821850078
+[razorfish]: http://www.fluentplatform.com
+[eagereyes2]: https://eagereyes.org/criticism/march-chart-madness
+
+
 {% include links.md %}
+
+
+
+
 
 
