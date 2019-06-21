@@ -74,7 +74,7 @@ So let's practice creating a wireframe for a data visualization!
 > This process should take ~30 minutes, so make sure you budget your time well! In the last 15 minutes, 
 > you will be able to share your ideas with the rest of the group.
 >
-
+{: .challenge}
 
 {% include links.md %}
 
