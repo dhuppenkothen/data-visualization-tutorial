@@ -35,8 +35,16 @@ For each, there are a number of fairly low-effort steps you can take to improve 
 Many of these recommendations come from the [Accessibility Guide][accesscfpb] of the US 
 Consumer Financial Protection Bureau. An informative blog post by Amy Cesal, who led the creation 
 of this guide, can be found on the [Storytelling with Data blog][accessblog].
-A lot of great advice for designing for different types of accessibility in one handy locations are 
-these [posters][ukhoposters] created by the UK Home Office.
+
+> ## Accessibility beyond Vision
+>
+> While vision is one accessibility consideration, it is by no means the only one! 
+> A wide range of readers will be helped by making your figures as accessible as possible, 
+> and vision should not be your *only* consideration when designing accessible visualizations.
+>
+> The UK Home Office has designed a number of excellent [posters][ukhoposters] about 
+> accessible design for a wider range of users.
+ 
 There are many discussions about accessibility in design happening under the hashtag
 [a11y][a11ytwitter]. Regularly inform yourself about best practices, because as technology changes, 
 these best practices might change, too!
@@ -66,6 +74,12 @@ text for a figure like so
 ![Bar graph of quantity Y for each of the categories A, B and C.]({{ page.root }}/fig/mybarchart.png)
 ~~~
 {: .language-markdown}
+
+In Word, right-clicking on a Figure will allow you to attach alternative text. In LaTex, no such 
+straightforward solution exists to my knowledge. One solution is to make your figures as descriptive 
+as possible: make sure you include the type of figure, the information that is plotted, and the 
+main conclusion that the reader should draw from the figure. This will help a wide range of 
+readers make sense of your figures!
 
 For viewers with low vision, high contrast in your figures can be extremely important. Make 
 sure you use high-contrast colours to convey the most important information, your fonts are 
