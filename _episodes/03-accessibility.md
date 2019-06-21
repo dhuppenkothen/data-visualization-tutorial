@@ -37,7 +37,9 @@ Consumer Financial Protection Bureau. An informative blog post by Amy Cesal, who
 of this guide, can be found on the [Storytelling with Data blog][accessblog].
 A lot of great advice for designing for different types of accessibility in one handy locations are 
 these [posters][ukhoposters] created by the UK Home Office.
-
+There are many discussions about accessibility in design happening under the hashtag
+[a11y][a11ytwitter]. Regularly inform yourself about best practices, because as technology changes, 
+these best practices might change, too!
 
 ### Individuals with Low Vision and Screen Readers
 
@@ -48,9 +50,12 @@ overview of what you are displaying. Make sure your figures have a good caption 
 The CFPB guide linked above suggests to include 
 
 > 
-> One sentence of what the chart is, including the chart type for users with 
+> * One sentence of what the chart is, including the chart type for users with 
 > limited vision who can see part of it, but may not be able to have a full 
 > understanding of the graph.
+> * A link to a CSV or other machine-readable data format with the data so 
+> people with impaired vision can tab through the data with a screen reader. 
+> The data should have descriptive column labels and provide a link.
 >
 {: .callout}
 
@@ -113,3 +118,4 @@ presentation.
 [colourchecker]: https://accessibility.oit.ncsu.edu/tools/color-contrast/help.php
 [coblis]: https://www.color-blindness.com/coblis-color-blindness-simulator/
 [colororacle]: https://colororacle.org
+[a11ytwitter]: https://twitter.com/search?q=%23a11y&src=typd
