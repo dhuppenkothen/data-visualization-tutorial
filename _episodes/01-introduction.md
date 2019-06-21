@@ -78,7 +78,7 @@ black text of the city names. That is exactly what the mapmakers intended!
 
 The most important point you should keep in mind when reading on is this:
 
-> ## 
+> ## Attention 
 > Data Visualization is about managing the viewer's attention.
 >  
 {: .callout}
@@ -99,7 +99,7 @@ longer understand how to interpret the information.
  
 So here, then, is another important point to keep in mind: 
 
-> ## 
+> ## Accessibility
 > A visualization should always strive to make it easier for the widest possible 
 > range of viewers to understand the information conveyed.
 >  
@@ -142,7 +142,7 @@ what doesn't, and these decisions encode their own implicit understanding of the
 
 Here, then, is another important point to keep in mind when delving into the world of data visualiztion.
 
-> ## 
+> ## Subjectivity
 > Data visualizations are not objective tools of conveying information.
 > Their creation requires a multitude of minor and major decisions, which in turn 
 > encode the maker's personal understanding and sometimes biases about the world. 
@@ -183,8 +183,6 @@ associated with their pie charts, but the numbers are switched? What happened he
 I suppose newspaper printing is a stressful business, and occasionally things slip through without being checked 
 carefully. But this is a good lesson to ask before you submit your next paper or proposal: does the information 
 on my plots actually make sense? Is the context (captions, axes, labels, etc.) consistent with my visualization? 
-
-
 
 
 {% include links.md %}
