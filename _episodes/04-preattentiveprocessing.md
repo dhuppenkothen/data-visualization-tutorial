@@ -42,6 +42,7 @@ and make sure the brain's weaknesses do not impede understanding.
 
 This leads to a number of important questions to think about when designing a visualization:
 
+> ## Key Visualization Questions
 >
 > * How should I represent my data?
 > * How can I highlight important values in my visualization?
@@ -141,7 +142,7 @@ becomes to pick out the target.
 We have seen how some attributes make cognition very fast, and how combinations of attributes 
 loose this cognitive advantage. How do we use this knowledge in visualization?
 
-> Pre-Attentive Features
+> ## Pre-Attentive Features
 > 
 > When encoding the most important information in your visualization, choose features that 
 > are pre-attentive, and avoid combinations of attributes that require a serial search to 
