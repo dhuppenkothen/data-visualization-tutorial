@@ -67,8 +67,6 @@ text for a figure like so
 ~~~
 {: .language-markdown}
 
-In addition, provide a link to the data in machine-readable format. 
-
 For viewers with low vision, high contrast in your figures can be extremely important. Make 
 sure you use high-contrast colours to convey the most important information, your fonts are 
 big enough and your figures follow a clear, logical layout.  
