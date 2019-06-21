@@ -52,7 +52,7 @@ The CFPB guide linked above suggests to include
 > limited vision who can see part of it, but may not be able to have a full 
 > understanding of the graph.
 >
-{: .source}
+{: .callout}
 
 For example, in Markdown, the language that this tutorial was written in, you can add alternative 
 text for a figure like so
