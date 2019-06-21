@@ -79,20 +79,20 @@ Here are some visualizations for you to choose from:
 ![bar chart displaying the height of bridges, compared to the typical height of trucks, and that of a house cat]({{ page.root }}/fig/bridgeheights.jpg)
 Image Source: Indianapolis Star, via [Flowing Data][dataflow]
  
-![]({{ page.root }}/fig/water_drinking.jpg)
+![infographic with bar chart inside a water glass, with labels "0-1: 10%", "2-3: 29%", "4-5: 29%", "6-7: 14%", "8+: 18%"]({{ page.root }}/fig/water_drinking.jpg)
 Image Source: USA Today, via the [Calling Bullshit lecture 6 videos][cbvideos]
 ![]({{ page.root }}/fig/cryptocurrencies.png)
 
-![]({{ page.root }}/fig/topreadbooks.png)
+![A bar chart of the top read books in the world, where the bars are the spines of books]({{ page.root }}/fig/topreadbooks.png)
 Image Source: Jared Fanning, via [Business Insider][bitopread]
 
-![]({{ page.root }}/fig/dataviz_improve1.jpg)
+![A spiral pie chart of different components of a TED talk, none of which add up to 100%]({{ page.root }}/fig/dataviz_improve1.jpg)
 Image Source [Wired][tedanatomy], via [Design Your Way][designyourway]
 
-![]({{ page.root }}/fig/dataviz_improve14.jpg)
+![A 3D bar chart of stacked dollar bank notes, detailing different search engine optimization strategies]({{ page.root }}/fig/dataviz_improve14.jpg)
 Image Source: ReadWrite, via Stephanie R. Taylor's [lecture notes][taylornotes]
 
-![]({{ page.root }}/fig/dataviz_improve2.jpg)
+![A stack of pie]({{ page.root }}/fig/dataviz_improve2.jpg)
 Image Source: Found on [Design Your Way][designyourway]
 
 ![]({{ page.root }}/fig/dataviz_improve3.jpg)
@@ -114,7 +114,9 @@ Image Source: Stephanie R. Taylor's [lecture notes][taylornotes]
 ### Some more resources for data visualizations (and discussions thereof)
 
 * [This twitter thread](https://twitter.com/cbinsights/status/803435473196740608?lang=en)
-* 
+* [WTF Viz](https://viz.wtf)
+* [Eager Eyes](https://eagereyes.org)
+* [Design Your Way][designyourway]  
 
 [dataflow]: https://flowingdata.com/2013/07/15/open-thread-what-is-wrong-with-these-charts/
 [cbvideos]: https://callingbullshit.org/videos.html
