@@ -45,7 +45,7 @@ where they denote a sketch (on paper, a board, ...) of the layout of the page. T
 
 So let's practice creating a wireframe for a data visualization!
 
-> Challenge: Wireframe a Visualization
+> ## Challenge: Wireframe a Visualization
 >
 > Below this challenge, you will find a gallery of data visualizations. All of these were drawn 
 > from public sources like newspapers, companies, design agencies, etc.
