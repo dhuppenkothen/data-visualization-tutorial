@@ -35,7 +35,7 @@ David MacCandless, in his quote above, compares data visualization to the genera
 Maps are some of the oldest ways of visualizing information, and remain one of the best examples of 
 effective communication.
 
-> ## Maps as Data Visualizations
+> ## Exercise: Maps as Data Visualizations
 >
 > Take a look at a map, any map. This could be an online version, such as [Google Maps][gmaps]
 > or [Open Street Maps][openmaps], or a topographic map for hiking, or a map you hand-drew on paper to 
@@ -78,7 +78,7 @@ black text of the city names. That is exactly what the mapmakers intended!
 
 The most important point you should keep in mind when reading on is this:
 
->
+> ## 
 > Data Visualization is about managing the viewer's attention.
 >  
 {: .callout}
@@ -99,7 +99,7 @@ longer understand how to interpret the information.
  
 So here, then, is another important point to keep in mind: 
 
->
+> ## 
 > A visualization should always strive to make it easier for the widest possible 
 > range of viewers to understand the information conveyed.
 >  
@@ -142,7 +142,7 @@ what doesn't, and these decisions encode their own implicit understanding of the
 
 Here, then, is another important point to keep in mind when delving into the world of data visualiztion.
 
->
+> ## 
 > Data visualizations are not objective tools of conveying information.
 > Their creation requires a multitude of minor and major decisions, which in turn 
 > encode the maker's personal understanding and sometimes biases about the world. 
