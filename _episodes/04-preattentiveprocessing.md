@@ -150,13 +150,119 @@ loose this cognitive advantage. How do we use this knowledge in visualization?
 >
 {: .callout}
 
+### Ensemble Coding
+
+One interesting component of pre-attentive processing is ensemble encoding: it turns out our 
+brain can record summary statistics about an ensemble of shapes incredibly quickly, even 
+though it won’t remember the individual elements: for example, consider the figure below with 
+circles in blue and green of multiple sizes.
+In each of the two panels, are the blue or the green circles larger *on average*?
+
+![two panels, each with green and blue circles in different sizes]({{ page.root }}/fig/preattentive_ensemble.png)
 
 
+In experiements, viewers can generaelly tell very quickly whether the green or the 
+blue circles are, on average, larger, even if they see the figure for just a short moment.
+However, they won’t be able to answer whether any particular circle has a given size, or 
+is small or larger than its neighbouring circle. 
+Somehow, our brain stores information about the ensemble, without also storing the information 
+about each individual member of the ensemble, which seems pretty cool!
 
+## Feature Hierarchy
+
+All right, let's make this a little bit more complex. So far, we have mostly looked at individual features, 
+which turned out to be quick to process, ensembles, which also turned out to be quick (unless we care 
+about individual elements), and conjunction searches, which are difficult and slow.
+
+But are all types of features equally fast and easy to distinguish? As it turns out, there exists a 
+hierarchy. Consider the example below (from [Healy & Enns, 2012][healypdf], Figure 10). Where is the 
+boundary between elements?
+
+![two panels, the left with all squares on top, all circles on the bottom, colours randomly chosen for each elements to be either red or blue; the right with all blue to the left, all red to the right, shapes randomly mixed between circles and squares]({{ page.root }}/fig/preattentive_hierarchy.png)] 
+
+In boundary detection, the visual system favours colour over shape. The background variations in colour 
+slow down our perception of the edge between the group of circles and the group of squares. This kind 
+of task will be slower, but still pre-attentive. The interference of colour with our perception of 
+shape is asymmetric: in the right panel, the background variations in shape do not slow down our 
+perception of the boundary between blue and red elements nearly as much. What does this mean for 
+visualizating data? 
+
+> ## Feature Hierarchies
+>
+> **Choose the most salient features to encode the most important data attributes.**
+>
+{: .callout}
+
+For example, researchers have also found preferences for luminance over hue (more on the difference 
+between those two in the colour section), and for hue over texture. 
+
+A related concept is *visual interference*. If I display a number of visual features together, will they 
+perform as expected? For example, I might make a scatter plot where I encode one attribute of my data 
+in the colour, and another, different attribute of my data in shape. Are those patterns equally discernable 
+to the viewer? As it turns out, features can intefere with one another, and once again, a hierarchy 
+exists: perceptionally strong features like luminance and hue can mask weaker features like curvature.
+So when a viewer looks at a figure, they migiht recognize the different colours, but might not pay 
+attention to the changes of shape if the latter denote a different axis of information. 
+
+> ## Avoid Visual Interference
+>
+> If encoding multiple axes of information, choose the most salient visual feature for the most important
+> pieces of information to make sure less important attributes won't "hide" data patterns that the viewer
+> is interested in.
+> 
+{: .callout}
+
+## Memory
+
+Guiding the viewer's eye to the most important pieces of information and ensuring these will be 
+recognized quickly is only half of the equation. An equally important question is: What will the 
+viewer *remember* once they look away? What do we forget? What do we not even notice in the first place?
+
+As we have mentioned above, the brain is extremely selective about what it sees and remembers, which 
+turns out to be a small fraction of the information that the light falling into our eyes conveys. 
+There are three perceptional concepts that are important to keep in mind for data visualization 
+in this context:
+
+1. **Post-attentive amnesia**: Experiments found that having seen an image before for a short while 
+offers no help in rapidly identifying the presence of an object when that same image is shown again. 
+This is called post-attentive amnesia: we mostly forget what we just saw if we don't already know 
+what we're supposed to look out for. However, if a serial search is interrupted, picking that serial 
+search up again *is* much faster than starting anew.
+2. **Change blindness**: Have you ever looked at one of those puzzles where you compare two images and 
+find the differences? In general, they tend to be difficult and time consuming. This is because of a 
+cognitive effect called *change blindness*. We cannot remember details of an image across separate scenes
+except in areas where viewers have focused their attention. A blink or a blank screen is enough to blind 
+us to significant changes that occur in the scene during the interruption. This has important 
+implications for multi-panel figures. Because viewers are generally blind to changes between two images, 
+even when they are side by side, we must take extra care to direct viewers' attention to the *differences*
+between two panels if these turn out to be important to understanding the data.  
+3. **Inattentional blindness**: This is one of the most fascinating cognitive effects. While directing 
+the viewer's attention to a specific task can help with change blindness, it can at the same time induce 
+inattentional blindness. This happens when focusing on a specific part of an image or a scene renders 
+us blind to other elements of that image or scene, even when these elemenets are in the middle of our 
+fields of view. We are so focused on a specific task or area of the figure that we never even perceive 
+the other elements. There is a fascinating study where researchers showed participants a group of people 
+passing a basketball. If you've never tried it, I encourage you to go to [this youtube video][selattention]
+and count the number of times that the people in the white shirt pass the basketball, before reading on. 
+
+
+The participants were asked to count the number of times that the people in the 
+video wearing white shirts passed the ball. Unbeknownst to the participants, a person in a gorilla costume 
+walks through the video. When asked whether they saw anything unusual in the video, an astonishingly 
+large number of them never saw the gorilla walking through the video, because they were entirely 
+preoccupied with tracking the basketball and figuring out whether it was currently held by a person in a 
+white or a black shirt.   
+
+This has led to the hypothesis above that **there is no perception without attention**. Guiding attention 
+is important to ensuring that the viewer perceives the information on display accurately, and takes away 
+the key points. Elements to which the viewer is never guided might simply never be registered. So as a 
+general guideline, don't encode important information in these elements, because they might not be 
+perceived or remembered!
 
 [healywebsite]: https://www.csc2.ncsu.edu/faculty/healey/PP/#jscript_search
 [healypdf]: https://www.csc2.ncsu.edu/faculty/healey/download/tvcg.12a.pdf 
 [healyapp]: https://www.csc2.ncsu.edu/faculty/healey/PP/#jscript_search
+[selattention]: https://youtu.be/vJG698U2Mvo
 
 
 {% include links.md %}
