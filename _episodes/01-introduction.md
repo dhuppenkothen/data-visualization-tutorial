@@ -69,6 +69,12 @@ becomes visible. Depending on where you are in the world, move around that map u
 map is centred on the United States (or you could use the continent you're on!), then zoom 
 in until you see most of the country and some of its surrounding countries or oceans.
 
+What you find should look something like this:
+
+![OpenStreetMap map of the North American continent]({{ page.root }}/fig/openstreetmap_us.png)
+Image Source: [Open Street Maps][openmaps]
+
+
 You should be seeing the North American continent (or your own) in white, surrounded by 
 the blue of the ocean, with borders in purple, the country names in purple, and the 
 largest cities marked in black. There is a lot of information to unpack here! 
