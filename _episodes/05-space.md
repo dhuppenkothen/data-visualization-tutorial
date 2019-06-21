@@ -12,7 +12,19 @@ objectives:
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
-FIXME
+
+When we talk about *space* in data visualization, we don't mean Outer Space, the universe. We mean 
+the layout on a page or a screen, and which parts of your visualization are filled with information, 
+versus parts of the screen that aren't. 
+
+Space has been an important concept in arts and data visualization for a long time. It is closely 
+tied to the artistic idea of *composition*. Where do I put the elements of my visualization? Which 
+areas do I leave deliberately empty? What effect does this have on the viewer? 
+
+ 
+
+
+
 
 {% include links.md %}
 
