@@ -12,7 +12,14 @@ objectives:
 - "Understand which attributes are pre-attentive, and which ones aren't"
 - "Apply this knowledge to improve a visualization."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Visual cognition depends crucially on attention, state of mind, goals, and expectations."
+- "There are visual features that our visual system can comprehend in less than 200 ms"
+- "When conjoining these features, finding a target becomes a serial search and therefore slow and difficult."
+- "Our brain can comprehend summaries of ensembles quickly, even without recalling the attributes of 
+individual elements"
+- "There are feature hierarchies that make certain attributes easier/faster to comprehend than others"
+- "Humans are prone to blindness to change between images, as well as blind to elements of an 
+image or scene that our attention isn't focused on."
 ---
 
 Much of what follows is a summary of the excellent review paper "Attention and Visual Memory in 
@@ -126,16 +133,16 @@ becomes to pick out the target.
 > it also allows you to choose the time in milliseconds that a display will be shown to you, 
 > the number of distractor elements, and the number of times you'll be shown an image. 
 >
-> How does your performance for pre-attentive tasks depend on the time the image is shown to you, 
+> * How does your performance for pre-attentive tasks depend on the time the image is shown to you, 
 > the number if distractor elements, and the type of task (colour, shape, both)?
 > 
-> Start out with colour, and systematically vary the exposure time from 500ms to 100ms. 
+> * Start out with colour, and systematically vary the exposure time from 500ms to 100ms. 
 > Do ten trials per exposure time. How does your accuracy of prediction change?
 >
-> Now pick the lowest exposure time that gives you good accuracy, and vary the number of elements. 
+> * Now pick the lowest exposure time that gives you good accuracy, and vary the number of elements. 
 > Does your performance change significantly>
 > 
-> Repeat the exposure time experiment with shape and the combined shape and colour versions.
+> * Repeat the exposure time experiment with shape and the combined shape and colour versions.
 > Is your minimum exposure time signfiicantly different for these cases? 
 {: .challenge}
 
