@@ -55,6 +55,9 @@ So we're going to delve right in with an exercise.
 > Find another group of 2 and together, collect all your general guidelines and share them with 
 > the group in [this document](https://etherpad.wikimedia.org/p/ata-dataviz-exercise1) (15 minutes).
 >
+> **Important**: Make sure you look at the best practices for working in a group below, and keep 
+> them in mind when sharing ideas in your groups!
+>
 > In the last 10 minutes of this exercise, we will discuss the co-created guidelines and best 
 > practices together as a group.
 >
@@ -63,7 +66,26 @@ So we're going to delve right in with an exercise.
 Well done! I am going to bet that together, you came up with a pretty comprehensive list of
 best practices! Now let's delve a little deeper into those principles, and *why* they work.
 
-
+> ## Best Practices for Group Exercises
+>
+> * **Share space and time**: All of our exercises are time-bounded. That means you are all 
+> collectively responsible for making sure everyone in your group gets a chance to participate. 
+> Keep this in mind when sharing ideas and discussing projects!
+> * **Listen to each other**: Give each other space to speak, without interrupting or talking 
+> over who is currently speaking. If someone tends to monopolize time, gently remind them 
+> to share the time
+> * **Encourage one another**: Everyone here comes to this tutorial with a different background 
+> and different experiences. Some of you might have learned about this topic before, others might 
+> not. Invite especially the junior members of your group to participate, but don't put anyone 
+> on the spot, and appreciate the experiences that everyone brings to the table. 
+> * **Use positive and inclusive language**: Avoid value judgments in your language, like "this 
+> is stupid" or "I can't believe you don't know this". These statements are exclusionary, and 
+> not helpful! There are other subtle language cues that sound harmless, but might make it harder 
+> for your group members to participate, like "This is easy" or "simple", or "You can *just* [...]".
+> Be on the lookout for that language.
+> * **It's okay to slip up**: Slip-ups will happen. If someone calls you out, thank them for their 
+> feedback, move on and do better next time!
+{: .callout}
 
 {% include links.md %}
 
