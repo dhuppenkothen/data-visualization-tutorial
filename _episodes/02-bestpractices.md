@@ -11,7 +11,8 @@ objectives:
 - "Familiarizing learners with design practices like wireframing"
 
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "All of us have interacted with visualizations in one form or another."
+- "Use examples of data visualizations to co-create best practices."
 ---
 
 In the introduction, you got a first idea of the kinds of things we'll be talking about. 
@@ -40,19 +41,22 @@ So we're going to delve right in with an exercise.
 >
 >
 > For this exercise, pick one of the two data visualizations, then look at the questions below and 
-> note down some observations.
+> note down some observations. Take 5 minutes for this task.
 >
 > 1. What do you think is the main point or piece of information this visualization is trying to convey?
 > 2. What elements of the visualization help you understand the information that is being conveyed?
 > 3. What elements would you change or improve in order to make the meaning clearer?
 >
 > When you've written down your observations, find someone in the room who picked the other 
-> visualization. Compare your notes: 
+> visualization. Compare your notes (take 10 minutes for this task): 
 > 
 > 4. Can you distill general guidelines for designing good data visualizations?
 >
 > Find another group of 2 and together, collect all your general guidelines and share them with 
-> the group in [this document](https://etherpad.wikimedia.org/p/ata-dataviz-exercise1).
+> the group in [this document](https://etherpad.wikimedia.org/p/ata-dataviz-exercise1) (15 minutes).
+>
+> In the last 10 minutes of this exercise, we will discuss the co-created guidelines and best 
+> practices together as a group.
 >
 {: .challenge}
  

@@ -7,7 +7,12 @@ questions:
 objectives:
 - "Motivate data visualization as a tool to convey information"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Visualizations are an important method of interacting with information."
+- "Maps are great examples of visualizations: studying maps can help us understand how to convey information effectively"
+- "Visualization is about managing the viewer's attention."
+- "Visualizations should be accessible to the widest possible range of viewers."
+- "Visualizations are not objective tools of conveying information. They can be misused to manipulate."
+- "Context is important: make sure your context and visualization agree with one another!"
 ---
 
 > ## A Map to Our data
