@@ -55,7 +55,7 @@ Here's some sample code for you to use when adding a visualization to this file:
 > ![add your alternative text here]({{ page.root }}/fig/myvizname)
 > You can find the code or Jupyter notebook for this figure [at this address](add/your/repository/here).
 >
-{: .source}
+{: .language-markdown}
  
 If you copy and paste this code from the website, you should be fine. Replace the placeholder text 
 for the alternative text in the square brackets, `myvizname` with the filename of your image file, 
