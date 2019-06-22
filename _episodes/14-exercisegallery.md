@@ -1,13 +1,5 @@
 ---
 title: "A Gallery of Figures"
-teaching: 0
-exercises: 0
-questions:
-- "What great visualizations do our learners come up with?"
-objectives:
-- "Show off the visualizations learners have made during the exercise."
-keypoints:
-- "Data visualization is fun!"
 ---
 
 This is a document where learners can share the data visualizations they've generated. 
