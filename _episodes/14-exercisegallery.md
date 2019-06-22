@@ -47,15 +47,13 @@ the name you gave your branch earlier (i.e. whatever you `myname_dataviz` with w
 
 Here's some sample code for you to use when adding a visualization to this file:
 
-> ## Sample Code for Data Visualization
->
-> ### Daniela's fancy new visualization
->
-> This is a visualization I made for this exercise. It is awesome!
-> ![add your alternative text here]({{ page.root }}/fig/myvizname)
-> You can find the code or Jupyter notebook for this figure [at this address](add/your/repository/here).
->
-{: .language-markdown}
+```markdown
+### Daniela's fancy new visualization
+
+This is a visualization I made for this exercise. It is awesome!
+![add your alternative text here]({{ page.root }}/fig/myvizname)
+You can find the code or Jupyter notebook for this figure [at this address](add/your/repository/here).
+```
  
 If you copy and paste this code from the website, you should be fine. Replace the placeholder text 
 for the alternative text in the square brackets, `myvizname` with the filename of your image file, 
