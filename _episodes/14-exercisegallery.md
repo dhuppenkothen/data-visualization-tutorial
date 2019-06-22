@@ -51,7 +51,9 @@ Here's some sample code for you to use when adding a visualization to this file:
 ### Daniela's fancy new visualization
 
 This is a visualization I made for this exercise. It is awesome!
+
 ![add your alternative text here]({{ page.root }}/fig/myvizname)
+
 You can find the code or Jupyter notebook for this figure [at this address](add/your/repository/here).
 ```
  

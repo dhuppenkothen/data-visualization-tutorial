@@ -9,15 +9,25 @@ objectives:
 - "Familiarize yourself with matplotlib"
 
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "matplotlib and seaborn are powerful libraries for generating visualizations"
+- "Matching the type of visualization to your type of data can drastically improve readability"
+- "Choosing an informative and high-contrast colour palette can help make the figure viewable to a wide range of viewers"
 ---
+# Data Visualization: A Walkthrough
 
 This notebook takes an existing data visualization and aims to improve it based in some principles of good design. 
 
 Here's the original data visualization:
 
-![original infographic]({{ page.root }}/fig/infographic.png)
+![original infographic](../fig/infographic.png)
 
+Some internet business terminology to keep track of (or not):
+* "ROI" = "Return on Investment", i.e. how much profit you get back after spending some money on advertising
+* "SEO" = "Search Engine Optimization", the process of tweaking your website so that it appears far on top in search engines like Google or DuckDuckGo
+* "PPC" = "Pay-per-click" is an internet advertising model used to drive traffic to websites, in which an advertiser pays a publisher (typically a search engine, website owner, or a network of websites) when the ad is clicked (as per [wikipedia](https://en.wikipedia.org/wiki/Pay-per-click)
+* "PR" = "Public Relations", is a strategic communication process that builds mutually beneficial relationships between organisations and the public, as per [this website](https://publicrelationssydney.com.au/the-difference-between-advertising-and-pr/)
+* "Direct Mail": good old-fashioned snail mail advertising you get in the post
+* "Online Media Buys": refers to matching an advertisement to an intended audience, I think. See also [wikipedia](https://en.wikipedia.org/wiki/Media_buying)
 
 **Exercise**: Write down short statements regarding the following questions
 * When you first looked at the figure, what did you first study: the visualization or the text?
@@ -25,16 +35,28 @@ Here's the original data visualization:
 * How well does the type of data visualization and its physical appearance (form, colours, contrast etc) convey the information given in the text?
 * What alternative forms might you choose to represent the data?
 
+**Note**: This a data visualization exercise, not one in internet marketing. If some of those terms don't make sense do you, that's totally okay. If you can't figure out what the figure is trying to tell you (honestly, I'm not sure, either), that's fine, too! For a data visualization exercise like this, you can totally make up a message you want to bring across (in fact, I'm going to do exactly that further down below) and run with it. In reality, we're scientists, however, and we don't make up stories in general. In your work, you might be faced with two situations:
+* *Exploratory data analysis*: Often, data visualization is a key part of exploratory data analysis, where you encounter a new data set and you don't know yet what's in there. For example, data from a new telescope might contain systematic effects that lead to funny-looking data. Visualizing the data sets helps you figure out what your data looks like, what biases might be in it. 
+* *Explaining a result with a visualization*: In our scientific (or non-scientific!) publications, we often use visualizations to explain a scientific result. In these cases, we already *know* the story, our scientific result, so in this case our task is to make sure that our visualization (1) represents the data accurately (everything else would be lying), and (2) that it allows the viewer to understand your results and how you've arrived there. 
+
+
 ### Data Visualization Libraries
 
-There are *many* different data visualization libraries out there in many different languages! For example [d3.js](https://d3js.org) has become very popular in the online world to make interactive visualizations and websites. But even within Python, there's a large number of libraries, and it can be difficult to choose which one might fulfil your purpose best. 
+There are *many* different data visualization libraries out there in many different languages! For example [d3.js](https://d3js.org) has become very popular in the online world to make interactive visualizations and websites. D3 has a pretty steep learning curve, though, and you need to know some JavaScript first. If you do, you can build amazing things, though. The New York Times has a fantastic data visualization team, have a look for example at their [2018 Year in Graphics](https://www.nytimes.com/interactive/2018/us/2018-year-in-graphics.html).
 
-Here, we are going to work with [matplotlib](https://matplotlib.org) and [seaborn](https://seaborn.pydata.org), but we encourage you to recreate this notebook (or go a different route!) with another language and/or package. If you do, please feel free to make a pull request to our [AstroHackWeek 2018 repository](https://github.com/AstroHackWeek/AstroHackWeek2018) on GitHub, so that others can see your efforts and learn more about your preferred way of working with data!
+But even within Python, which we're using here, there's a large number of libraries, and it can be difficult to choose which one might fulfil your purpose best.
+Here, we are going to work with [matplotlib](https://matplotlib.org) and [seaborn](https://seaborn.pydata.org), but we encourage you to recreate this notebook (or go a different route!) with another language and/or package. 
+
+The version you see on the website is a Markdown version (Markdown is a document language) of a Jupyter Notebook. You can find this notebook in the `/code/` folder of the repository under the name `12-walkthrough.ipynb`, if you want to download and execute the code yourself. However, I would also encourage you to create your own notebook and type the commands yourself, and edit them as you go to try new things. You'll probably learn more that way!
+
+So let's get started by importing some libraries:
 
 
 ```python
-%matplotlib inline
+# show plots inline
+%matplotlib inline 
 
+# import matplotlib and seaborn
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -121,7 +143,8 @@ sns.barplot(x=df.index, y=df.values)
 
 
 
-![output1]({{ page.root }}/fig/output_8_1.png)
+
+![png](output_9_1.png)
 
 
 This figure immediately gives you more information about the data than the previous version did. In particular, it's immediately clear which bar belongs to which entry without confusing lines connecting them, and the order is also immediately clear: SEO has the largest return-on-investment, Online Media Buys the smallest. 
@@ -152,7 +175,8 @@ sns.barplot(x=df.index, y=df.values, color="darkblue")
 
 
 
-![output101]({{ page.root }}/fig/output_10_1.png)
+
+![png](output_11_1.png)
 
 
 We can use the gestalt concept of continuity to order this by y height. This allows us to decipher the plot information quicker.
@@ -193,7 +217,8 @@ sns.barplot(x=df.index, y=df.values, color="darkblue")
 
 
 
-![output141]({{ page.root }}/fig/output_14_1.png)
+
+![png](output_15_1.png)
 
 
 This is much more boring, but much less confusing. We can color the bars by another dimension to convey more information, let's say here we want to color them by height. We do this by using a sequential color palette. This still allows the red bar to jump out, and gives some weight to the remaining bars.
@@ -204,7 +229,7 @@ sns.palplot(sns.color_palette("Blues"))
 ```
 
 
-![output16e]({{ page.root }}/fig/output_16_0.png)
+![png](output_17_0.png)
 
 
 
@@ -220,7 +245,8 @@ sns.barplot(x=df.index, y=df.values, palette="Blues")
 
 
 
-![output170]({{ page.root }}/fig/output_17_1.png)
+
+![png](output_18_1.png)
 
 
 Now perhaps, instead, we'd actually want to highlight the e-mail data point. 
@@ -245,7 +271,8 @@ sns.barplot(x=df.index, y=df.values, palette=colours)
 
 
 
-![output201]({{ page.root }}/fig/output_20_1.png)
+
+![png](output_21_1.png)
 
 
 Now the red bar immediately jumps out, doesn't it? However, the bars are still of a similar visual weight. This might not be ideal, for example if the figure is printed in greyscale, where very different colours might come out very similarly.
@@ -269,12 +296,13 @@ sns.barplot(x=df.index, y=df.values, palette=bad_colours)
 
 
 
-![output231]({{ page.root }}/fig/output_23_1.png)
+
+![png](output_24_1.png)
 
 
 And here is simulation of the same figure for deuteranopia, the most common kind of colour blindness:
 
-![plot shown in deuteranopia colors]({{ page.root }}/fig/deuteranopia.png)
+![plot shown in deuteranopia colors](images/deuteranopia.png)
 
 The best way to make this figure readable in both greyscale and to people with colour blindness is to not rely on colour alone for distinguishing elements. For example, you can also rely on intensity:
 
@@ -293,7 +321,8 @@ sns.barplot(x=df.index, y=df.values, palette=colours)
 
 
 
-![output251]({{ page.root }}/fig/output_25_1.png)
+
+![png](output_26_1.png)
 
 
 Or you can change the shape (e.g. in the case of a scatter plot), make the bars slightly transparent (which is strictly also a change in intensity), or include some kind of other pattern that will distinguish your important elements from the rest.
@@ -332,7 +361,8 @@ ax.text(0.6, 58, "53.4%", fontdict=font)
 
 
 
-![output271]({{ page.root }}/fig/output_27_1.png)
+
+![png](output_28_1.png)
 
 
 ### A Note on Gridlines
@@ -354,7 +384,8 @@ ax.yaxis.set_major_locator(ticker.MultipleLocator(5))
 
 ```
 
-![output290]({{ page.root }}/fig/output_29_0.png)
+
+![png](output_30_0.png)
 
 
 Again using the concepts of gestalt, we can see that while these gridlines give us finer resolution, they also take up more visual space. We can place them in the background by adjusting their color and weight.
@@ -364,7 +395,8 @@ Again using the concepts of gestalt, we can see that while these gridlines give 
 sns.palplot(sns.color_palette("Greys"))
 ```
 
-![output310]({{ page.root }}/fig/output_31_0.png)
+
+![png](output_32_0.png)
 
 
 
@@ -379,9 +411,20 @@ ax.yaxis.set_major_locator(ticker.MultipleLocator(5))
 sns.set_style({'grid.color': '0.5', 'grid.linestyle': ':'})
 ```
 
-![output320]({{ page.root }}/fig/output_32_0.png)
+
+![png](output_33_0.png)
 
 
 This figure might be less exciting than the infographic above, but it is much more straightforward to read and understand, and much more informative with respect to the narrative we want to present.
 
-**Exercise**: Build your own narrative around this data! Make up your own narrative to convey with this data, and then choose a type of data visualization, a set of colours and other elements of your figure accordingly! You can explore the data visualization catalogue for different types of visualizations to try out, and you can explore different combinations of colour palettes, intensities and values of transparency to help you emphasize the most important information. When you're done, please make a pull request to the [tutorial repo](https://github.com/dhuppenkothen/data-visualization-tutorial), so that others can learn from your ideas!
+### Alternative Text
+
+As a last step, remember that some of your readers might be using screen readers. Compose an informative alternative text (e.g. for websites) or figure caption that allows users with screen readers to get the gist of what you've plotted, ideally along with a link to a machine-readable version of the data. 
+
+For example, my Markdown alt-text for the website version of this figure reads: "bar chart for return on investment for different types of marketing strategies, e-mail highlighted in red at second place with 53.4% return on investment".
+
+In a paper, I might caption this like this: "This figure presents our results for the return on investment (ROI) for different types of marketing strategies, as a bar chart. While Search Engine Optimization (SEO, left-most bar) has undoubtedly the highest ROI, our results show that e-mail (highlighted in red) follows closely behind with 53.4% ROI, leaving behind PPC, PR, Direct Mail and OMB."
+
+### Exercise
+Build your own narrative or data visualization! You can make up your own narrative to convey with this data, or you can choose one of the other visualizations in the Gallery in [Wireframing a Visualization](http://huppenkothen.org/data-visualization-tutorial/11-improveaviz/index.html) exercise. Then choose a type of data visualization, a set of colours and other elements of your figure accordingly! You can explore the [data visualization catalogue](http://www.datavizcatalogue.com) for different types of visualizations to try out, and you can explore different combinations of colour palettes, intensities and values of transparency to help you emphasize the most important information. When you're done, add your figure [to this github repo](https://github.com/dhuppenkothen/data-visualization-tutorial) by following the instructions on [this page]((http://dhuppenkothen.github.io/data-visualization-tutorial/14-exercisegallery/index.html).
+{% include links.md %}
