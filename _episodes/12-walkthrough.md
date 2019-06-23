@@ -144,7 +144,7 @@ sns.barplot(x=df.index, y=df.values)
 
 
 
-![png](output_9_1.png)
+![png](../fig/output_9_1.png)
 
 
 This figure immediately gives you more information about the data than the previous version did. In particular, it's immediately clear which bar belongs to which entry without confusing lines connecting them, and the order is also immediately clear: SEO has the largest return-on-investment, Online Media Buys the smallest. 
@@ -176,7 +176,7 @@ sns.barplot(x=df.index, y=df.values, color="darkblue")
 
 
 
-![png](output_11_1.png)
+![png](../fig/output_11_1.png)
 
 
 We can use the gestalt concept of continuity to order this by y height. This allows us to decipher the plot information quicker.
@@ -218,7 +218,7 @@ sns.barplot(x=df.index, y=df.values, color="darkblue")
 
 
 
-![png](output_15_1.png)
+![png](../fig/output_15_1.png)
 
 
 This is much more boring, but much less confusing. We can color the bars by another dimension to convey more information, let's say here we want to color them by height. We do this by using a sequential color palette. This still allows the red bar to jump out, and gives some weight to the remaining bars.
@@ -229,7 +229,7 @@ sns.palplot(sns.color_palette("Blues"))
 ```
 
 
-![png](output_17_0.png)
+![png](../fig/output_17_0.png)
 
 
 
@@ -246,7 +246,7 @@ sns.barplot(x=df.index, y=df.values, palette="Blues")
 
 
 
-![png](output_18_1.png)
+![png](../fig/output_18_1.png)
 
 
 Now perhaps, instead, we'd actually want to highlight the e-mail data point. 
@@ -272,7 +272,7 @@ sns.barplot(x=df.index, y=df.values, palette=colours)
 
 
 
-![png](output_21_1.png)
+![png](../fig/output_21_1.png)
 
 
 Now the red bar immediately jumps out, doesn't it? However, the bars are still of a similar visual weight. This might not be ideal, for example if the figure is printed in greyscale, where very different colours might come out very similarly.
@@ -297,7 +297,7 @@ sns.barplot(x=df.index, y=df.values, palette=bad_colours)
 
 
 
-![png](output_24_1.png)
+![png](../fig/output_24_1.png)
 
 
 And here is simulation of the same figure for deuteranopia, the most common kind of colour blindness:
@@ -322,7 +322,7 @@ sns.barplot(x=df.index, y=df.values, palette=colours)
 
 
 
-![png](output_26_1.png)
+![png](../fig/output_26_1.png)
 
 
 Or you can change the shape (e.g. in the case of a scatter plot), make the bars slightly transparent (which is strictly also a change in intensity), or include some kind of other pattern that will distinguish your important elements from the rest.
@@ -362,7 +362,7 @@ ax.text(0.6, 58, "53.4%", fontdict=font)
 
 
 
-![png](output_28_1.png)
+![png](../fig/output_28_1.png)
 
 
 ### A Note on Gridlines
@@ -385,7 +385,7 @@ ax.yaxis.set_major_locator(ticker.MultipleLocator(5))
 ```
 
 
-![png](output_30_0.png)
+![png](../fig/output_30_0.png)
 
 
 Again using the concepts of gestalt, we can see that while these gridlines give us finer resolution, they also take up more visual space. We can place them in the background by adjusting their color and weight.
@@ -396,7 +396,7 @@ sns.palplot(sns.color_palette("Greys"))
 ```
 
 
-![png](output_32_0.png)
+![png](../fig/output_32_0.png)
 
 
 
@@ -412,7 +412,7 @@ sns.set_style({'grid.color': '0.5', 'grid.linestyle': ':'})
 ```
 
 
-![png](output_33_0.png)
+![png](../fig/output_33_0.png)
 
 
 This figure might be less exciting than the infographic above, but it is much more straightforward to read and understand, and much more informative with respect to the narrative we want to present.
