@@ -17,8 +17,15 @@ some dedication to read. It makes a pretty good reference, too.
 Jevin West, has a number of videos and texts about data visualization, which are free and great 
 * Healy + Enns wrote a great [summary paper][healypdf] on pre-attentive processing, which is accessible to 
 people who aren't visualization researchers and worth a read
+* The Psychological Bulleting published two reviews on Gestalt Psychology in 2012, with the 
+[first part][gestalt1] focusing on perceptual grouping and figure-ground organization, and the
+[second part][gestalt2] covers modern developments regarding the generaul conceptual and theoretical 
+frameworks that underlie Gestalt ideas.]
 
 [nmviz]: http://blogs.nature.com/methagora/2013/07/data-visualization-points-of-view.html
 [bullshit]: https://callingbullshit.org
 [healypdf]: https://www.csc2.ncsu.edu/faculty/healey/download/tvcg.12a.pdf
+[gestalt1]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3482144/
+[gestalt2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3728284/
+
 {% include links.md %}
