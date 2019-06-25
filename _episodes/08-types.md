@@ -70,3 +70,52 @@ travelled for Thanksgiving, Christmas, or the rest of the year, something that i
 in the pie chart without the numbers (especially with the 3D perspective added in!).
 
 
+### Types of Data
+
+So far, I've mostly asserted that the bar chart would be a better type of visualization for this kind of data,
+but I've not told you how I got there.
+
+The first step to designing a good visualization is to ask yourself: what important information does my data
+contain? And this is closely related to the different types of data you might encounter.
+
+One important distinction is between *continuous* and *discrete* data. Continuous data describes all those
+measurements that encode a continuous variable, like for example temperature, or brightness. Discrete
+data, often also called *categorical* data, generally comes in two separate flavour: *nominal* data describes
+a set of unordered categories (like the different types of trips above), whereas *ordinal* data describes
+categories in a fixed order, like for examples the months of the year.
+
+Line charts and scatter plots are often used for continuous data types, bar charts and pie charts are often
+used for categorical data. This is not a hard-and-fast rule, however.
+Using line charts for categorical data can be confusing, because people tend to intuitively interpolate between
+the values on the X-axis, which might not make sense in all cases (what would be the interpolation between "christmas"
+and "Thanksgiving" in our example above?
+You *can* use line charts for
+categorical data, but this requires a little bit more thought on the part of the viewer, so as a designer you
+need to take extra care to highlight the axis labels in a way that helps the viewer understand that
+the variable on the X-axis is categorical.
+
+*Proportional data*, i.e. data where the sum of all parts make up 100%, is a special type of categorical data.
+[Fundamentals of Data Visualization][vizbook] by Claus O. Wilke has a great section on visualizing proportions,
+and also cases where pie charts fail even when the data is proportional.
+
+For continuous data, there is an important question to ask: is the important information in the *absolute*
+values of my data points, or in the *relative* differences between data points? This is closely related to
+another important question: Do I need to include the zero-point on the y-axis, or not?
+
+One example is this chart about the average annual global temperature, shared by the National Review:
+
+![temperature in Fahrenheit from 1900 to 2014, on a y-scale of 0 to 110]({{ page.root }}/fig/annavtemp.png)
+
+This chart is supposed to show that climate change is, supposedly, not real, since the annual temperatures
+have barely changed over the past hundred years.
+
+This chart is, technically, correct: it contains all the data. But it is also misleading to the point of being
+useless. Scientists generally agree that a change of 2 degrees Fahrenheit has a significant impact on our
+climate. On a scale of 0 to 110, these differences will never show up!
+**Including zero points when relative differences are important can be very misleading.**
+
+However, this does not mean you should never include zero points: The UW class [Calling Bullshit][cbaxes] has a
+great discussion of this case, as well as the reverse case: bar charts that do *not* start at zero, leading
+to very confusing and misleading estimations of the actual relative differences between different categories.
+
+
