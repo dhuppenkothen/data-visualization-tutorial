@@ -151,6 +151,7 @@ resulting website will give you examples, a description and the advantages and d
 [cbaxes]: https://callingbullshit.org/tools/tools_misleading_axes.html
 [datavizprop]: https://datavizcatalogue.com/search/proportions.html
 [datavizcat]: https://datavizcatalogue.com
+
 {% include links.md %}
 
 
