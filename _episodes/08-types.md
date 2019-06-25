@@ -118,4 +118,43 @@ However, this does not mean you should never include zero points: The UW class [
 great discussion of this case, as well as the reverse case: bar charts that do *not* start at zero, leading
 to very confusing and misleading estimations of the actual relative differences between different categories.
 
+### Choosing A Visualization Type
+
+So where does this leave us? Bar charts, line charts and pie charts in themselves are confusing enough! But
+beyond these types, there are dozens more!
+
+Fear not, for there are resources that help you! One of the best ones out there is the
+[Data Visualization Catalogue][datavizcat]. You can search by function (whether you're trying to show a part-to-whole,
+distribution, comparison, time series, etc. relationship), or by type of data visualization, and the website will
+give you suggestions for what type of visualization to use for what purpose.
+
+For example, take a look at the entry for "Proportions":
+
+![Screen shot of "Proportions" page of datavizcatalogue.com]({{ page.root }}/fig/datavizprop.png)
+Image Source: Screen shot of [Proportions page][datavizprop] on [www.datavizcatalogue.com][datavizcat]
+
+Here, you have to decide whether to look at proportions between numbers (like in our pie chart example above),
+or in parts-to-whole relationship (exactly what we *didn't* have above!). If you click on "pie chart", the
+resulting website will give you examples, a description and the advantages and drawbacks.
+
+> ## Exploring the Catalogue
+>
+> Take a look around the data visualization catalogue. Which types of visualizations are you
+> familiar with? Which ones are new to you?
+>
+> Are there other types of data visualizations you think would be useful for the trip length data above?
+>
+> What types of functions do you usually tend to display in your own work? What types of visualizations
+> do you usually use to display them? Are there good alternatives in the catalogue you think would be
+> worth trying out?
+>
+{: .challenge}
+
+[wtfviz]: https://viz.wtf/post/154944020060/thnaksgiving
+[vizbook]: https://serialmentor.com/dataviz/visualizing-proportions.html
+[cbaxes]: https://callingbullshit.org/tools/tools_misleading_axes.html
+[datavizprop]: https://datavizcatalogue.com/search/proportions.html
+[datavizcat]: https://datavizcatalogue.com
+
+{% include links.md %}
 
