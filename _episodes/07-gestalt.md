@@ -13,7 +13,16 @@ keypoints:
 Gestalt principles were introduced by German psychologists in the 1920s. “Gestalt” itself is a German word 
 meaning “shape” or “form”. It encompasses the idea that when you put certain elements together, the 
 combination of these elements produces something new (this is where the common saying “the whole is greater 
-than the sum of its parts”). You’ve all used Gestalt principles before! 
+than the sum of its parts”). Gestalt psychology fell out of fashion for a while, but in the recent couple of 
+decades has come back into the spotlight as cognitive scientists are finding some of the underpinnings of 
+how we visually perceive objects and ensembles. There are a couple of really short introductions to 
+Gestalt principles for design that were published in Nature ([Part 1][nmeth1] and [Part 2][nmeth2]). For a 
+somewhat longer introduction, including some of the history and cognitive theories that have recently been 
+used to describe Gestalt phenomena, there are two excellent review articles published in the Psychological 
+Bulletin. [Part 1][gestalt1] describes the principles in some detail, including the history, and [Part 2][gestalt2]
+focuses more on the work in cognitive sciences of recent decades. 
+
+You’ve all used Gestalt principles before! 
 
 One common example is the principle of similarity: things that are similar in size, shape or colour 
 are perceived as belonging together. 
@@ -193,6 +202,10 @@ meaning of your visualization clearer.
 {: .challenge}
 
 
+[nmeth1]: https://www.nature.com/articles/nmeth1110-863.pdf
+[nmeth2]: https://www.nature.com/articles/nmeth1210-941.pdf
+[gestalt1]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3482144/
+[gestalt2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3728284/
 
 {% include links.md %}
 
