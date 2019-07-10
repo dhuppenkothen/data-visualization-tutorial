@@ -44,6 +44,7 @@ of this guide, can be found on the [Storytelling with Data blog][accessblog].
 >
 > The UK Home Office has designed a number of excellent [posters][ukhoposters] about 
 > accessible design for a wider range of users.
+{: .callout}
  
 There are many discussions about accessibility in design happening under the hashtag
 [a11y][a11ytwitter]. Regularly inform yourself about best practices, because as technology changes, 
@@ -74,6 +75,13 @@ text for a figure like so
 ![Bar graph of quantity Y for each of the categories A, B and C.]({{ page.root }}/fig/mybarchart.png)
 ~~~
 {: .language-markdown}
+
+In HTML,`alt` tags allow inclusion of alternative tags e.g. for images:
+
+~~~
+<img src="mybarchart.png" alt="Bar graph of quantity Y for each of the categories A, B and C." />
+~~~
+{: .language-html}
 
 In Word, right-clicking on a Figure will allow you to attach alternative text. In LaTex, no such 
 straightforward solution exists to my knowledge. One solution is to make your figures as descriptive 
