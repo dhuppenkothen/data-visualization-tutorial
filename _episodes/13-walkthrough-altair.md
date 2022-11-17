@@ -15,7 +15,7 @@ keypoints:
 - "Matching the type of visualization to your type of data can drastically improve readability"
 - "Choosing an informative and high-contrast colour palette can help make the figure viewable to a wide range of viewers"
 ---
-# Data Visualization: A Walkthrough in
+# Data Visualization: A Walkthrough in Altair
 
 This notebook is a follow-up to the [visualization walkthrough](http://dhuppenkothen.github.io/data-visualization-tutorial/12-walkthrough/index.html). Instead of matplotlib and seaborn, we are 
 going to use the Python library [altair](https://altair-viz.github.io). 
@@ -48,7 +48,16 @@ Because Altair is a direct translation of Vega-Lite, it usually lags behind the 
 
 You can follow the [installation instructions](https://altair-viz.github.io/getting_started/installation.html) to get altair running in your notebook, JupyterLab or interface of choice.
 
-**Important**: Because of the notebook-to-markdown conversion, the interactive plots in this notebook **will not be interactive** on the website. In order to check out the interactivity, please 
+**Important**: Because of the notebook-to-markdown conversion, the interactive plots in this notebook **will not be interactive** on the website. In order to check out the interactivity without installing locally on your system, you can run it on [binder](https://mybinder.org/v2/gh/dhuppenkothen/data-visualization-tutorial/HEAD). 
+
+To do so, launch the binder, then open a terminal and install the relevant packages:
+```
+$ pip install vega
+$ pip install altair vega_datasets
+$ jupyter labextension install @jupyterlab/vega5-extension
+```
+
+You should now be able to launch a notebook and use altair. 
 
 Once you've done that, let's give it a quick test using one of the 
 standard data sets and the code snippet from the Altair website:
